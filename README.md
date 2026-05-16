@@ -257,4 +257,26 @@ The tracking result is saved in:
 
 <pre><code>test_output_5_bytetrack_tracking</code></pre>
 
+<h3><strong>Test Evaluation Graphs</strong></h3>
 
+<p>
+The following graphs were generated during the test evaluation stage. These figures show precision, recall, F1, PR curve, and confusion matrix results for the trained detector on the test-dev dataset.
+</p>
+
+<h4><strong>F1 Confidence Curve</strong></h4>
+<img src="images/test_evaluation/BoxF1_curve.png" width="700">
+
+<h4><strong>Precision Confidence Curve</strong></h4>
+<img src="images/test_evaluation/BoxP_curve.png" width="700">
+
+<h4><strong>Precision-Recall Curve</strong></h4>
+<img src="images/test_evaluation/BoxPR_curve.png" width="700">
+
+<h4><strong>Recall Confidence Curve</strong></h4>
+<img src="images/test_evaluation/BoxR_curve.png" width="700">
+
+<h4><strong>Confusion Matrix</strong></h4>
+<img src="images/test_evaluation/confusion_matrix.png" width="650">
+
+<h4><strong>Normalized Confusion Matrix</strong></h4>
+<img src="images/test_evaluation/confusion_matrix_normalized.png" width="650">
